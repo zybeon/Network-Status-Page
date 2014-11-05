@@ -4,7 +4,7 @@
 	// While it is standalone php file it still points to the same configuration file that comes with Network Status Page so you can
 	// easily adjust preferences there. I simply made this not have any includes so that
 	// you could move it to wherever is most convenient for scripts.
-	$config_path = "/Users/zeus/Sites/config.ini"; //path to config file, recommend you place it outside of web root
+	$config_path = "/var/www/statuspage.ini"; //path to config file, recommend you place it outside of web root
 
 	Ini_Set( 'display_errors', true );
 	$config = parse_ini_file($config_path);
