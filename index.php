@@ -11,8 +11,8 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>d4rk.co</title>
-		<meta name="author" content="d4rk">
+		<title>serveyourmedia.com</title>
+		<meta name="author" content="zybeon">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- Le styles -->
 		<link href="assets/fonts/stylesheet.css" rel="stylesheet">
@@ -256,7 +256,7 @@
 							<!-- Online profiles -->
 							<div class="panel panel-default">
 								<div class="panel-body">
-									<img src="http://www.gravatar.com/avatar/ae73e9ef5eb134c74df655c0bbb1012a.png" class="img-rounded">
+									<img src="//www.gravatar.com/avatar/ae73e9ef5eb134c74df655c0bbb1012a.png" class="img-rounded">
 									<hr>
 									<div id="left_column_top"></div>
 								</div>
@@ -265,7 +265,7 @@
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<h4 class="panel-title exoextralight">
-										<a id="ping" class="badge pull-right" rel="tooltip" data-toggle="tooltip" data-placement="left" title="Ping" href="http://www.pingtest.net/index.php">
+										<a id="ping" class="badge pull-right" rel="tooltip" data-toggle="tooltip" data-placement="left" title="Ping" href="//www.pingtest.net/index.php">
 										</a>
 										Bandwidth
 									</h4>
