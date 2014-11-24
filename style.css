@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+}
+
+.center {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.no-link-color
+a {
+  color:#999999;
+}
+a:hover {
+  color:#999999;
+}
+
+.exoextralight {
+  font-family:"exoextralight";
+}
+
+.exolight {
+  font-family:"exolight";
+}
+[data-icon]:before {
+  font-family: 'MeteoconsRegular';
+  content: attr(data-icon);
+}
+
+.exoregular {
+  font-family:"exoregular";
+}
+
+/* Changes carousel slide transition to fade transition */
+.carousel {
+  overflow: hidden;
+}
+.carousel .item {
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -ms-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.carousel .active.left, .carousel .active.right {
+  left:0;
+  opacity:0;
+  z-index:2;
+}
+
+.carousel .next, .carousel .prev {
+  left:0;
+  opacity:1;
+  z-index:1;
+}
+/* End of carousel slide transition hack */
+
+/* Disables shadowing on right and left sides of carousel images for a crisp look */
+.carousel-control.left {
+  background-image: none;
+}
+.carousel-control.right {
+  background-image: none;
+}
+/* End of carousel shadow modification */
+
+/* Disables ping ID looking like a link and makes it look white */
+a#ping.badge.pull-right {
+  color:#FFF;
+}
+/* End of Ping ID hack */
