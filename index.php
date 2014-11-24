@@ -11,7 +11,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>d4rk.co</title>
+		<title>ServeYourMedia</title>
 		<meta name="author" content="d4rk">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- Le styles -->
@@ -19,71 +19,7 @@
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-wip/css/bootstrap.min.css">
 		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.0/css/font-awesome.css" rel="stylesheet">
-		<style type="text/css">
-			body {
-				text-align: center;
-			}
-			.center {
-				margin-left:auto;
-				margin-right:auto;
-			}
-			.no-link-color 
-				a {
-					color:#999999;
-				}
-				a:hover {
-					color:#999999;	
-				}
-			
-			.exoextralight {
-				font-family:"exoextralight";
-			}
-			.exolight {
-				font-family:"exolight";
-			}
-			[data-icon]:before {
-				font-family: 'MeteoconsRegular';
-				content: attr(data-icon);
-			}
-			.exoregular {
-				font-family:"exoregular";
-			}
-			/* Changes carousel slide transition to fade transition */
-			.carousel {
-				overflow: hidden;
-			}
-			.carousel .item {
-				-webkit-transition: opacity 1s;
-				-moz-transition: opacity 1s;
-				-ms-transition: opacity 1s;
-				-o-transition: opacity 1s;
-				transition: opacity 1s;
-			}
-			.carousel .active.left, .carousel .active.right {
-				left:0;
-				opacity:0;
-				z-index:2;
-			}
-			.carousel .next, .carousel .prev {
-				left:0;
-				opacity:1;
-				z-index:1;
-			}
-			/* End of carousel slide transition hack */
-			/* Disables shadowing on right and left sides of carousel images for a crisp look */
-			.carousel-control.left {
-				background-image: none;
-			}
-			.carousel-control.right {
-				background-image: none;
-			}
-			/* End of carousel shadow modification */
-			/* Disables ping ID looking like a link and makes it look white */
-			a#ping.badge.pull-right {
-				color:#FFF;
-			}
-			/* End of Ping ID hack */
-		</style>
+		<link rel="stylesheet" href="style.css">
 		<link rel="apple-touch-icon-precomposed" href="/assets/ico/apple-touch-icon.png" />
 		<link rel="shortcut icon" href="assets/ico/favicon.ico">
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -256,7 +192,7 @@
 							<!-- Online profiles -->
 							<div class="panel panel-default">
 								<div class="panel-body">
-									<img src="http://www.gravatar.com/avatar/ae73e9ef5eb134c74df655c0bbb1012a.png" class="img-rounded">
+									<img src="//www.gravatar.com/avatar/ae73e9ef5eb134c74df655c0bbb1012a.png" class="img-rounded">
 									<hr>
 									<div id="left_column_top"></div>
 								</div>
